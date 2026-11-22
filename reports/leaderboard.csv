@@ -1,0 +1,8 @@
+,CV ROC-AUC
+Stack: LogReg meta,0.954477
+CatBoost,0.95447
+Blend: rank mean,0.954388
+Blend: mean,0.954383
+XGBoost,0.954208
+LightGBM,0.954155
+LogReg,0.953004

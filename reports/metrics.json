@@ -1,0 +1,56 @@
+{
+  "competition": "playground-series-s6e2",
+  "quick_mode": true,
+  "train_rows_used": 100000,
+  "train_rows_total": 630000,
+  "n_folds": 5,
+  "seed": 42,
+  "features": [
+    "Age",
+    "Sex",
+    "Chest_pain_type",
+    "BP",
+    "Cholesterol",
+    "FBS_over_120",
+    "EKG_results",
+    "Max_HR",
+    "Exercise_angina",
+    "ST_depression",
+    "Slope_of_ST",
+    "Number_of_vessels_fluro",
+    "Thallium",
+    "HR_reserve_pct",
+    "ST_x_slope",
+    "Vessels_x_Thal",
+    "Chol_per_age",
+    "BP_per_age",
+    "Risk_count"
+  ],
+  "selected_model": "Stack: LogReg meta",
+  "cv_roc_auc": {
+    "LogReg": 0.953004,
+    "LightGBM": 0.954155,
+    "XGBoost": 0.954208,
+    "CatBoost": 0.95447,
+    "Blend: mean": 0.954383,
+    "Blend: rank mean": 0.954388,
+    "Stack: LogReg meta": 0.954477
+  },
+  "threshold_metrics_selected": {
+    "accuracy": 0.8862,
+    "f1": 0.872
+  },
+  "top_shap_features": {
+    "Thallium": 1.1359,
+    "Chest_pain_type": 0.9939,
+    "Max_HR": 0.5669,
+    "Sex": 0.384,
+    "Slope_of_ST": 0.3263,
+    "Exercise_angina": 0.3229,
+    "ST_x_slope": 0.2889,
+    "Risk_count": 0.2725,
+    "Vessels_x_Thal": 0.2466,
+    "Age": 0.2447
+  },
+  "runtime_minutes": 10.7
+}
