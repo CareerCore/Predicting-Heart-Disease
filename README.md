@@ -109,7 +109,7 @@ Set `QUICK = False` in the configuration cell for the full-data run; set `USE_GP
 * Public leaderboard score may differ from CV because of the competition's noisy labels.
 
 ## 👤 Author
-**Your Name** — AI Engineer · AI/ML Certified · [GitHub](https://github.com/YOUR_GITHUB_USERNAME)
+Mohsin Ali Arshad — AI Engineer · AI/ML Certified · [GitHub](https://github.com/YOUR_GITHUB_USERNAME)
 
 ## 📄 License
 MIT – see [LICENSE](LICENSE). Competition data remains subject to the Kaggle competition rules.
