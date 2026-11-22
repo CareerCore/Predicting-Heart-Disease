@@ -1,14 +1,9 @@
-# ❤️ Predicting Heart Disease — Kaggle Playground S6E2
+# ❤️ Predicting Heart Disease 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/heart-disease-prediction-s6e2/blob/main/notebooks/heart_disease_s6e2.ipynb)
 ![Python](https://img.shields.io/badge/python-3.10+-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Task](https://img.shields.io/badge/task-binary%20classification-orange)
-
-A complete, reproducible machine-learning pipeline for the Kaggle
-[Playground Series S6E2 – Predicting Heart Disease](https://www.kaggle.com/competitions/playground-series-s6e2)
-competition: exploratory analysis, leakage-safe feature engineering, cross-validated gradient-boosting models,
-ensembling, SHAP explainability and a ready-to-upload submission file.
 
 > **Run it in one click:** press the *Open in Colab* badge, upload the three competition CSVs to Colab (or mount Drive), and choose *Runtime → Run all*.
 
